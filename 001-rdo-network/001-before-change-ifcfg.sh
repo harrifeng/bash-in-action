@@ -4,7 +4,7 @@ systemctl disable NetworkManager
 systemctl stop NetworkManager
 systemctl enable network
 systemctl start network
-yum install -y git tmux
+yum install -y tmux traceroute
 yum install -y centos-release-openstack-ocata
 yum install -y openstack-packstack
 
